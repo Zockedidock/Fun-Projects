@@ -5,9 +5,9 @@
 #include <vector>
 
 namespace most {
-	auto getPandigitalNums(int base)->std::vector<long int>;
-	float Q_sqrt(float number);
-	void stringToASCII(const char* string);
+	auto getPandigitalNums(int base) -> std::vector<long int>;
+	auto Q_sqrt(float number) -> float;
+	auto stringToASCII(const char* string);
 
 	inline void print(std::string p) { std::cout << p << std::endl; }
 	inline void print(int p) { std::cout << p << std::endl; }
@@ -24,6 +24,7 @@ namespace most {
 	inline void print(std::vector<long int> p) { for (auto i : p) std::cout << i << std::endl; }
 	inline void print(std::vector<double> p) { for (auto i : p) std::cout << i << std::endl; }
 	inline void print(std::vector<float> p) { for (auto i : p) std::cout << i << std::endl; }
+	template<class T> inline auto print(T p) { for (auto i : p) std::cout << i << std::endl; }
 }
 
 #endif

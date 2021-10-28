@@ -1,6 +1,6 @@
 #include "MorningStar.h"
 
-void most::stringToASCII(const char* string)
+auto most::stringToASCII(const char* string)
 {
 	long int temp[sizeof(string) + 1];
 	for (int i = 0; i < sizeof(string); i++)

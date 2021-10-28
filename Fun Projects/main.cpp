@@ -2,5 +2,6 @@
 
 int main()
 {
-	most::print(most::getPandigitalNums(10)); // not finished yet
+	using namespace most;
+	print(getPandigitalNums(10)); // not finished yet
 }

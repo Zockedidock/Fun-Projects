@@ -1,6 +1,6 @@
 #include "MorningStar.h"
 
-float most::Q_sqrt(float number)
+auto most::Q_sqrt(float number) -> float
 {
     long i;
     float x2, y;
