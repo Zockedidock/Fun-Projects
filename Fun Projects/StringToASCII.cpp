@@ -2,7 +2,7 @@
 
 void most::stringToASCII(const char* string)
 {
-	int temp[sizeof(string) + 1];
+	long int temp[sizeof(string) + 1];
 	for (int i = 0; i < sizeof(string); i++)
 	{
 		temp[i] = string[i];
